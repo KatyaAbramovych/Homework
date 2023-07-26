@@ -1,0 +1,25 @@
+.composition {
+    width: 600px;
+    height: 360px;
+    background-color: rgb(189, 194, 192);
+    padding: 20px;
+    }
+    .box {
+        margin-bottom: 20px;
+        background-color: aqua;
+    }
+    .square {
+        height: 100px;
+        background-color: lightsalmon;
+        width: 100px;
+        margin: 0 auto;
+    }
+    .square1 {
+        float: left;
+    }
+    .square2 {
+        float: right;
+    }
+    .clear {
+        clear: both;
+    }
