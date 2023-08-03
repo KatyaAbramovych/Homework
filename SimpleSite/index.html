@@ -2,64 +2,121 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./styls.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Simple Site</title>
   </head>
   <body>
-    <header class="header">
-      <div class="container">
+    <header id="header">
+      <div class="header-container">
         <nav class="nav">
           <ul class="list">
-            <li class="list_one">Homepage</li>
-            <li class="list_one">About author</li>
-            <li class="list_one">Works</li>
-            <li class="list_one">Process</li>
-            <li class="list_one">Contacts</li>
+            <li class="list-item">Homepage</li>
+            <li class="list-item">About author</li>
+            <li class="list-item">Works</li>
+            <li class="list-item">Process</li>
+            <li class="list-item">Contacts</li>
           </ul>
         </nav>
-        <h1>Design and layout</h1>
-        <p>
+        <h2>Design and layout</h2>
+        <p class="header-description">
           Lorem Ipsum is fish text often used in print and web design. Lorem
           Ipsum has been the standard "fish" for Latin texts since the early
           16th century.
         </p>
-        <button class="sub" type="submit" name="register" value="register">
-          WRITE ME
-        </button>
-      </div>
-      <div class="container">
-        <div class="About">
-          <h2>About me</h2>
-          <p>
-            About meLorem Ipsum is fish text often used in print and web design.
-            Lorem Ipsum has been the standard "fish" for Latin texts since the
-            early 16th century.
-          </p>
-        </div>
-      </div>
-      <div class="container">
-        <div class="cards">
-          <img src="./item.png" alt="Projects" />
-          <img src="./item.png" alt="Projects" />
-          <img src="./item.png" alt="Projects" />
-          <img src="./item.png" alt="Projects" />
-          <img src="./item.png" alt="Projects" />
-          <img src="./item.png" alt="Projects" />
-        </div>
-      </div>
-      <div class="container">
-        <div class="how">
-          <h2>
-            How do I work
-          </h2>
-          <p>Lorem Ipsum is fish text often used in print and web
-            design. Lorem Ipsum has been the standard "fish" for Latin texts
-            since the early 16th century.</p>
-            <iframe width="500" height="300" src="https://youtu.be/_R5a-Kc0pRc" frameborder="0"></iframe>
-        </div>
+        <button class="header-button">Write me</button>
       </div>
     </header>
+    <main>
+      <section class="about">
+        <div class="about-container">
+          <div class="text-align">
+            <h2>About me</h2>
+            <p>
+              About meLorem Ipsum is fish text often used in print and web
+              design. Lorem Ipsum has been the standard "fish" for Latin texts
+              since the early 16th century.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="card">
+        <div class="card-container">
+          <div class="card-item">
+            <img src="./images/card-item.png" alt="img" />
+            <div class="card-text">
+              <p class="card-title">40+</p>
+              <p class="card-subtext">projects</p>
+            </div>
+          </div>
+          <div class="card-item">
+            <img src="./images/card-item.png" alt="img" />
+            <div class="card-text">
+              <p class="card-title">40+</p>
+              <p class="card-subtext">projects</p>
+            </div>
+          </div>
+          <div class="card-item">
+            <img src="./images/card-item.png" alt="img" />
+            <div class="card-text">
+              <p class="card-title">40+</p>
+              <p class="card-subtext">projects</p>
+            </div>
+          </div>
+          <div class="card-item">
+            <img src="./images/card-item.png" alt="img" />
+            <div class="card-text">
+              <p class="card-title">40+</p>
+              <p class="card-subtext">projects</p>
+            </div>
+          </div>
+          <div class="card-item">
+            <img src="./images/card-item.png" alt="img" />
+            <div class="card-text">
+              <p class="card-title">40+</p>
+              <p class="card-subtext">projects</p>
+            </div>
+          </div>
+          <div class="card-item">
+            <img src="./images/card-item.png" alt="img" />
+            <div class="card-text">
+              <p class="card-title">40+</p>
+              <p class="card-subtext">projects</p>
+            </div>
+          </div>
+          <div class="clearbox"></div>
+        </div>
+      </section>
+      <section class="work">
+        <div class="work-container">
+          <div class="text-align">
+            <h2>How do I work</h2>
+            <p>
+              Lorem Ipsum is fish text often used in print and web design. Lorem
+              Ipsum has been the standard "fish" for Latin texts since the early
+              16th century.
+            </p>
+          </div>
+        </div>
+        <div class="video">
+          <video width="1100" height="600" muted controls>
+            <source src="./video/test-video.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="footer-container">
+        <h4>John Smith</h4>
+        <p>(c) 2018. All rights reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>

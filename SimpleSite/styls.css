@@ -1,64 +1,169 @@
-* {
-    box-sizing: border-box;
-  }
-.container {
-    width: 1200px;
-    margin: 0 auto;  
-    padding: 25px 25px 10px ;
+.text-align {
+  width: inherit;
+  margin: 0 auto;
+}
+#header {
+  background-color: #eeeff1;
+}
+.header-container {
+  width: 650px;
+  margin: 0 auto;
+  padding: 79px 0 141px 0;
+}
+.header-description {
+  width: 540px;
+  font-family: Roboto;
+  font-size: 16px;
+  text-align: left;
+  line-height: 26.25px;
+  color: #727272;
+  margin-bottom: 65px;
 }
 .nav {
-    display: inline-block;
-    margin: 0 ;
-    width: 646px;
-    height: 150px;
-    top: 79px;
-    left: 399px;
-    margin-top: 50px;
+  display: inline-block;
+  width: 646px;
 }
 .header {
-    background-color: #EEEFF1;
-    width: 2464px;
-    height: 1920px;
-
+  background-color: #eeeff1;
+  width: 2464px;
 }
-.list {
-    padding: 0;
-    margin-bottom: 160px;
-
+#header .list-item {
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 20px;
+  text-transform: uppercase;
+  color: #34547a;
+  font-family: Roboto;
+  font-weight: 500;
+  letter-spacing: 1.6px;
 }
-.list_one {
-    display: inline-block;
-    font-size: 16px;
-    margin-right: 20px;
+#header h2 {
+  margin-bottom: 60px;
+  margin-top: 151px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 78.75px;
 }
-p {
-    color: #727272;
-    padding-bottom: 100px;
+.header-button {
+  background: #34547a;
+  color: white;
+  width: 225px;
+  height: 65px;
 }
-.sub {
-    background-color: rgb(27, 26, 110);
-    color: white;
-    width: 225px;
-    height: 65px;
-  }
-  h1 {
-      padding-bottom: 50px;
-
-  }
-  .About {
-      text-align: center;
-      background-color: white;
-      padding-top: 40px;
-  }
-  .cards {
-      background-color: rgb(22, 12, 116);
-      margin: 0;
-      padding: 60px;
-      text-align: center;
-      }
-  img {
-    max-width: 141px;
- }
- .how {
-     text-align: center;
- }
+.about {
+  padding: 112px 0 100px 0;
+  background: #f9f9f9;
+  box-sizing: border-box;
+}
+.about h2 {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+}
+.about p {
+  margin: 50px 0 0 0;
+  color: #727272;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26.25px;
+}
+.about-container {
+  width: 520px;
+  margin: 0 auto;
+}
+.card {
+  padding: 100px 0;
+  background-color: #34547a;
+}
+.card-container {
+  width: 1100px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+.card-item {
+  float: left;
+  margin-right: 45px;
+}
+.card-item img {
+  float: left;
+  width: 50px;
+  height: 50px;
+  padding-right: 20px;
+}
+.card-text {
+  display: inline-block;
+  color: #fff;
+  font-family: Roboto;
+}
+.card-text p {
+  margin: 0;
+}
+.card-subtext {
+  font-size: 16px;
+}
+.card-title {
+  font-size: 21px;
+}
+.clearbox {
+  clear: both;
+}
+.work {
+  padding: 112px 0 100px 0;
+  background: #eeeff1;
+  box-sizing: border-box;
+}
+.work h2 {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+}
+.work p {
+  margin: 50px 0 100px 0;
+  color: #727272;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26.25px;
+}
+.work-container {
+  width: 521px;
+  margin: 0 auto;
+}
+.video {
+  margin-top: 57px;
+  text-align: center;
+  margin: 0 auto;
+}
+#footer {
+  background-color: #34547a;
+  padding: 50px 0;
+}
+.footer-container {
+  width: 1100px;
+  margin: 0 auto;
+}
+#footer h4 {
+  display: inline-block;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+#footer p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21.328px;
+}
