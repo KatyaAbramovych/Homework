@@ -7,9 +7,8 @@ body {
   display: flex;
   background-color: cornflowerblue;
 }
-.topmenu>li:hover {
-    background-color: #0e56d5;
-
+.topmenu > li:hover {
+  background-color: #0e56d5;
 }
 a {
   text-decoration: none;
@@ -49,6 +48,6 @@ a {
   display: block;
   color: azure;
 }
-.submenu li:hover >a{
-    background-color: cornflowerblue;
+.submenu li:hover > a {
+  background-color: cornflowerblue;
 }
