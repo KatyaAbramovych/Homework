@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-size: 22px;
+  font-family: sans-serif;
+}
+.topmenu {
+  display: flex;
+  background-color: cornflowerblue;
+}
+.topmenu>li:hover {
+    background-color: #0e56d5;
+
+}
+a {
+  text-decoration: none;
+  color: cornsilk;
+  padding: 40px 35px;
+  display: inline-block;
+}
+.submenu {
+  min-width: 193px;
+  position: absolute;
+  z-index: 5;
+  transform-origin: 0 0;
+  transform: rotateX(-90deg);
+  transition: 0.3s linear;
+  visibility: hidden;
+  opacity: 0;
+}
+.submenu li {
+  position: relative;
+}
+.submenu .submenu {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  transition: 0.3s linear;
+}
+.topmenu li:hover > .submenu {
+  opacity: 1;
+  visibility: visible;
+  transform: rotateX(0deg);
+}
+.submenu a {
+  border: 1px solid #002b77;
+  padding: 20px 30px;
+  background-color: #0e56d5;
+  font-size: 16px;
+  display: block;
+  color: azure;
+}
+.submenu li:hover >a{
+    background-color: cornflowerblue;
+}
