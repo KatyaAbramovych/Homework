@@ -1,0 +1,240 @@
+/* #header {
+    background-color:#FFF;
+  }
+  .header-container {
+    display: flex;
+    width: 1440px;
+    margin: 0 auto;
+  }
+.nav img {
+    padding: 34px 51px 33px 51px;
+} */
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+body {
+  color: #000;
+  font-family: Graphik LC TT;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  max-width: 1440px;
+  padding-left: 51px;
+  padding-right: 51px;
+  margin: 0 auto;
+}
+.header {
+  background-color: #fff;
+}
+.heder__iner {
+  padding-top: 34px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu__list {
+  display: flex;
+  gap: 57px;
+}
+.header-button {
+  position: relative;
+}
+/* .header img {
+    padding: 34px 51px 33px 51px;
+} */
+.header-button {
+}
+.log-button {
+  width: 120px;
+  height: 45px;
+  flex-shrink: 0;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  color: #000;
+  text-align: center;
+  font-family: Graphik LC TT;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45px;
+  background-color: #fff;
+}
+.try-button {
+  width: 120px;
+  height: 45px;
+  flex-shrink: 0;
+  background: #ff6336;
+  color: #fff;
+  text-align: center;
+  font-family: Graphik LC TT;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45px;
+}
+.main {
+  background-color: #fff;
+}
+.top {
+  padding: 97px 0 147px;
+
+  /* padding-top: 97px;
+    padding-bottom: 147px; */
+}
+.top__inner {
+  position: relative;
+}
+.top__title {
+  color: #000;
+  font-family: Graphik LC TT;
+  font-size: 65px;
+  margin-bottom: 51px;
+  width: 552px;
+}
+.top__tex {
+  margin-bottom: 48px;
+  color: #000;
+  font-family: Graphik LC TT;
+  font-size: 25px;
+  width: 471px;
+}
+.top__content {
+  width: 620px;
+  padding: 162px 0 250px;
+}
+.free-button {
+  width: 160px;
+  height: 60px;
+  flex-shrink: 0;
+  background: #ff6336;
+  color: #fff;
+  text-align: center;
+  font-family: Graphik LC TT;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+  padding: 0 41px 0 42px;
+}
+.book-button {
+  width: 160px;
+  height: 60px;
+  color: #000;
+  text-align: center;
+  font-family: Graphik LC TT;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+  background-color: #fff;
+  padding: 1px 29px;
+}
+.try {
+  color: #000;
+  font-family: Graphik LC TT;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 25px;
+}
+.top__img {
+  position: absolute;
+  top: 0;
+  /* left: 559px; */
+  margin: 151px 67px 192px 539px;
+}
+.about {
+  background-color: #ff9c7d;
+  padding: 98px 0 94px;
+  color: #000;
+  margin-bottom: 150px;
+}
+.about__inner {
+  align-items: center;
+}
+.about__content {
+  width: 720px;
+  text-align: center;
+}
+.about__title {
+  display: flex;
+  color: #000;
+  text-align: center;
+  font-family: Graphik LC TT;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+  align-items: center;
+  justify-content: center;
+}
+.abaut__list {
+  display: flex;
+  align-items: center;
+  gap: 103px;
+}
+.project__item {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.094px;
+}
+.project__item-img {
+  width: 632px;
+  height: 632px;
+  flex-shrink: 0;
+  display: flex;
+}
+.project__item-titl {
+  width: 493px;
+  color: #000;
+  font-family: Graphik LC TT;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+  padding-bottom: 30px;
+}
+.project_text {
+  margin: 0;
+}
+/* .container_section__inner{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+} */
+.project {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.project__item-text {
+  color: #000;
+  font-family: Graphik LC TT;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 30px;
+}
+.project__inner-text {
+  color: #000;
+  font-family: Graphik LC TT;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+}
