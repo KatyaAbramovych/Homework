@@ -1,36 +1,60 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 body {
-    counter-reset: list;
+  counter-reset: list;
   background: rgb(29, 29, 29);
 }
 .box {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* grid-auto-rows: minmax(200px, auto); */
-  grid-gap: 20px;
+  grid-gap: 40px;
+  padding: 10px;
+  margin: 0 auto;
+  width: 800px;
 }
 .item-save {
-  /* display: grid; */
   grid-column: 1 / 3;
   background-color: white;
   text-align: left;
   color: black;
 }
-.item-sms{
-    text-align: center;
-    background-color: blueviolet;
-    color: white;
+.item-sms {
+  background-color: blueviolet;
+  color: white;
 }
-.item-paid{
-background-color: turquoise;
+.item-paid {
+  background-color: turquoise;
+  color: black;
 }
 .item-website {
-    background-color: yellow;
+  background-color: yellow;
+  color: black;
 }
-.item-marketing{
-    background-color: rgb(121, 116, 116);
+.item-marketing {
+  background-color: rgb(121, 116, 116);
+  color: black;
+}
+.item {
+  border-radius: 40px;
+  padding: 20px;
+  text-align: left;
+  font-family: system-ui;
+}
+.item h2 {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 0 10px 0;
+}
+.item p {
+  font-size: 13px;
+  padding: 10px 0 20px 0;
+}
+.item h1 {
+  font-size: 45px;
+  padding: 10px 0 25px 0;
+  font-family: inherit;
+}
+.item img {
+  padding: 20px 0 10px 0;
 }
