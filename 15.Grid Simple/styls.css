@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+    counter-reset: list;
+  background: rgb(29, 29, 29);
+}
+.box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-auto-rows: minmax(200px, auto); */
+  grid-gap: 20px;
+}
+.item-save {
+  /* display: grid; */
+  grid-column: 1 / 3;
+  background-color: white;
+  text-align: left;
+  color: black;
+}
+.item-sms{
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+}
+.item-paid{
+background-color: turquoise;
+}
+.item-website {
+    background-color: yellow;
+}
+.item-marketing{
+    background-color: rgb(121, 116, 116);
+}

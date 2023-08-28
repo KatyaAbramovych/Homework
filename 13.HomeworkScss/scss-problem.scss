@@ -7,18 +7,18 @@ $bg-color: pink;
   border-radius: 5px;
 
   &:hover {
-    background-color: $hover;
+    background-color: $hover-color;
   }
 }
 
 @mixin fancy_border($radius, $color) {
   border-radius: $radius;
-  border: 1px solid $colors;
-  padding 10px;
+  border: 1px solid $color;
+  padding: 10px;
 }
 
 .selector {
-  @include fancy-border(10px);
+  @include fancy-border(10px, blue);
   background-color: #eee;
-  @include button-mixin;
+  @include button-mixin($bg-color);
 }
