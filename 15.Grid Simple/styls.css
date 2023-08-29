@@ -37,24 +37,26 @@ body {
 }
 .item {
   border-radius: 40px;
-  padding: 20px;
+  padding: 40px 20px;
   text-align: left;
   font-family: system-ui;
 }
-.item h2 {
+.item-h2 {
   font-size: 18px;
   font-weight: bold;
-  padding: 10px 0 10px 0;
+  margin-bottom: 20px;
 }
-.item p {
+.item-p {
   font-size: 13px;
-  padding: 10px 0 20px 0;
+  line-height: 18px;
 }
-.item h1 {
+.item-h1 {
   font-size: 45px;
-  padding: 10px 0 25px 0;
-  font-family: inherit;
+  margin: 10px 0 25px 0;
 }
-.item img {
-  padding: 20px 0 10px 0;
+.item-img {
+  padding: 5px;
+  background: white;
+  border-radius: 50%;
+  margin-bottom: 20px;
 }
