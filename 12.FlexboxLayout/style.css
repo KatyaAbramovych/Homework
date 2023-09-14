@@ -39,13 +39,13 @@ a {
 .header {
   background-color: #fff;
   border-bottom: 1px solid;
-  padding-bottom: 20px;
 }
 .header__inner {
   padding-top: 34px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 20px;
 }
 .header__group {
   display: flex;
@@ -56,15 +56,11 @@ a {
   display: flex;
   gap: 57px;
 }
-.header-button {
-  position: relative;
-}
 .log-button {
   width: 120px;
   border: 1px solid rgba(0, 0, 0, 0.5);
   color: #000;
   text-align: center;
-  font-family: Graphik LC TT;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -76,35 +72,27 @@ a {
   background: #ff6336;
   color: #fff;
   text-align: center;
-  font-family: Graphik LC TT;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
   border: 1px solid #ff6336;
   padding: 14px 0;
 }
-.main {
-  background-color: #fff;
-}
-.top {
-  padding: 97px 0 147px;
-}
 .top__inner {
   display: flex;
+  padding: 97px 0 147px;
+  gap: 20px;
 }
 .top__title {
   color: #000;
-  font-family: Graphik LC TT;
-  font-size: 65px;
+  font-size: 63px;
   margin-bottom: 51px;
-  width: 552px;
 }
 .top__text {
   margin-bottom: 48px;
   color: #000;
-  font-family: Graphik LC TT;
   font-size: 25px;
-  width: 471px;
+  line-height: 30px;
 }
 .free-button {
   width: 160px;
@@ -112,7 +100,6 @@ a {
   background: #ff6336;
   color: #fff;
   text-align: center;
-  font-family: Graphik LC TT;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -123,7 +110,6 @@ a {
   border: 1px solid rgba(0, 0, 0, 0.5);
   color: #000;
   text-align: center;
-  font-family: Graphik LC TT;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -136,7 +122,6 @@ a {
 }
 .try {
   color: #000;
-  font-family: Graphik LC TT;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -145,11 +130,10 @@ a {
 }
 .about {
   background-color: #ff9c7d;
-  padding: 98px 0 94px;
   color: #000;
 }
 .about__inner {
-  align-items: center;
+  padding: 98px 0 94px;
 }
 .about__content {
   width: 720px;
@@ -158,7 +142,6 @@ a {
 .about__title {
   color: #000;
   text-align: center;
-  font-family: Graphik LC TT;
   font-size: 50px;
   font-style: normal;
   font-weight: 600;
@@ -191,35 +174,26 @@ a {
   display: flex;
 }
 .project__item-titl {
-  width: 493px;
   color: #000;
-  font-family: Graphik LC TT;
   font-size: 50px;
   font-style: normal;
   font-weight: 600;
   line-height: 60px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 .project_text {
   margin: 0;
 }
-.project {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
 .project__item-text {
   color: #000;
-  font-family: Graphik LC TT;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 .project__inner-text {
   color: #000;
-  font-family: Graphik LC TT;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -234,7 +208,6 @@ a {
 .header-localize-text {
   color: #000;
   text-align: center;
-  font-family: Graphik LC TT;
   font-size: 50px;
   font-style: normal;
   font-weight: 600;
@@ -258,8 +231,6 @@ a {
   gap: 57px;
 }
 .card_img {
-  width: 160px;
-  height: 120px;
   margin-bottom: 26px;
 }
 .localize__inner-h {
@@ -272,11 +243,8 @@ a {
   line-height: 35px;
   margin-bottom: 20px;
 }
-.card p {
+.localize__inner-p {
   text-align: center;
-}
-.productivity {
-  background-color: #fff;
 }
 .productivity__inner {
   padding: 154px 0 187px 0;
@@ -286,7 +254,6 @@ a {
 }
 .header-productivity-text {
   color: #000;
-  font-family: Graphik LC TT;
   font-size: 50px;
   font-style: normal;
   font-weight: 600;
@@ -303,7 +270,6 @@ a {
 }
 .productivity__inner_pro {
   color: #000;
-  font-family: Graphik LC TT;
   font-size: 30px;
   font-style: normal;
   font-weight: 600;
@@ -316,25 +282,23 @@ a {
 .card_pro:last-child .productivity__inner_pro {
   margin-top: 48px;
 }
-.card_pro p {
+.card_pro_p {
   color: #000;
-  font-family: Graphik LC TT;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
-  padding-top: 34px;
+  margin-top: 34px;
   width: 409px;
 }
-.card_pro a {
+.card_pro_a {
   color: #000;
-  font-family: Graphik LC TT;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
   text-decoration-line: underline;
-  padding-top: 25px;
+  margin-top: 25px;
 }
 .revolut {
   background: #c9e8f2;
@@ -346,7 +310,6 @@ a {
 }
 .revolut__header {
   color: #000;
-  font-family: Graphik LC TT;
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
@@ -362,10 +325,6 @@ a {
   line-height: 25px;
   margin-bottom: 10px;
 }
-.container__revolut-item-tex {
-}
-.revolut__avatar {
-}
 .translation {
   background: #dabc98;
 }
@@ -378,11 +337,8 @@ a {
   align-items: center;
   border-right: 1px solid black;
 }
-.translation_img {
-}
 .translation-text {
   color: #000;
-  font-family: Graphik LC TT;
   font-size: 35px;
   font-style: normal;
   font-weight: 600;
@@ -395,32 +351,29 @@ a {
 }
 .translation_box-inner {
   width: 128px;
-  height: 116px;
 }
 .translation_logo-inner {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .star-inner {
-  padding-bottom: 14px;
+  margin-bottom: 14px;
 }
-.container_translation_box p {
+.translation-text_inner {
   color: #000;
-  font-family: Graphik LC TT;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: 25px;
   letter-spacing: 0.75px;
-  padding-bottom: 23px;
 }
 .translation_box-item {
-  padding-left: 70px;
+  margin-left: 70px;
 }
 .translation_logo-item {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .star-item {
-  padding-bottom: 14px;
+  margin-bottom: 14px;
 }
 .container_integrate {
   padding: 169px 0 162px;
@@ -431,18 +384,16 @@ a {
 .integrate_header {
   color: #000;
   text-align: center;
-  font-family: Graphik LC TT;
   font-size: 65px;
   font-style: normal;
   font-weight: 600;
   line-height: 75px;
-  padding: 169px 249px 0 250px;
+  width: 790px;
 }
-.container_integrate p {
+.integrate_inner {
   max-width: 539px;
   color: #000;
   text-align: center;
-  font-family: Graphik LC TT;
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
@@ -455,7 +406,6 @@ a {
   width: 193px;
   color: #fff;
   text-align: center;
-  font-family: Graphik LC TT;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -476,32 +426,27 @@ a {
   padding: 119px 0 161px;
 }
 .easy_header {
-  max-width: 784px;
+  width: 784px;
   color: #000;
   text-align: center;
-  font-family: Graphik LC TT;
   font-size: 65px;
   font-style: normal;
   font-weight: 600;
   line-height: 75px;
   margin-bottom: 29px;
 }
-.container_easy p {
+.easy_inner {
   color: #000;
   text-align: center;
-  font-family: Graphik LC TT;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
   margin-bottom: 54px;
 }
-.button-easy {
-}
 .button-it {
   color: #fff;
   text-align: center;
-  font-family: Graphik LC TT;
   font-size: 17px;
   font-style: normal;
   font-weight: 600;
@@ -528,90 +473,72 @@ a {
   flex-direction: column;
   max-width: 370px;
 }
-.group h2 {
+.footer_header {
   color: #000;
-  font-family: Graphik LC TT;
   font-size: 40px;
   font-style: normal;
   font-weight: 600;
   line-height: 50px;
-  padding-bottom: 28px;
+  margin-bottom: 28px;
 }
 .img_cyclist {
-  padding-bottom: 31px;
+  margin-bottom: 31px;
 }
 .img_logo {
   width: 80px;
-  padding-bottom: 11px;
+  margin-bottom: 11px;
 }
-.group p {
+.footer_text {
   color: #000;
-  font-family: Graphik LC TT;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
-  padding-bottom: 15px;
+  margin-bottom: 15px;
 }
-.group a {
+.footer_a {
   color: #000;
-  font-family: Graphik LC TT;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
   line-height: 30px;
-  padding-bottom: 95px;
+  margin-bottom: 95px;
 }
 .container_list {
   display: flex;
   gap: 34px;
   padding-top: 5px;
 }
-.container_list h2 {
+.list_header_inner {
   color: #000;
-  font-family: Graphik LC TT;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
   line-height: 25px;
   margin-bottom: 21px;
 }
-.container_list li {
+.footer_list_item {
   color: #000;
-  font-family: Graphik LC TT;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: 15px;
-  padding-bottom: 15px;
+  margin-bottom: 15px;
 }
 .footer_bottom {
   padding: 48px 0;
   display: flex;
   justify-content: space-between;
 }
-.footer_bottom-inner p {
-  color: #000;
-  font-family: Graphik LC TT;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 15px;
-}
 .bottom-item {
   gap: 14px;
   display: flex;
   align-items: center;
 }
-.bottom-inner p {
+.bottom_inner_p {
   color: #000;
-  font-family: Graphik LC TT;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: 15px;
-}
-.bottom-inner img {
-  width: 90px;
-  height: 21px;
 }
